@@ -1,0 +1,139 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+    padding: 20px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+    display: flex;
+
+}
+nav a{
+    text-decoration: none;
+    color: #7c0606;
+    font-size: 18px;
+    transition: 0.8s ease-in-out;
+}
+main section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #c9c3c3;
+    animation: fadeup 1s ease-in-out;
+    border-radius: 10px;
+    list-style: none;
+}
+a:hover {
+    color: #ff0202;
+    text-decoration: underline;
+}
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #ff0202;
+    margin-bottom: 10px;
+    
+}
+#current {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #110909;
+}
+h2 :hover {
+    color: #ff0202;
+    text-decoration: none;
+    transition: 0.8s ease-in-out;
+}
+.project-card {
+    display: ;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+#navbar {
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 89, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar .container {
+    width: 270px;
+    height: auto;
+    background: #fff;
+    border: 2px solid blue;
+    transition: 0.8s ease-in-out;
+    font-display: poor richard;
+    border-radius: 20px;
+    color: rgb(49, 29, 39);
+}
+#navbar .container h2 {
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(126, 132, 154, 177);
+    font-weight: bolder;
+        width: auto;
+    height: auto;
+    
+}
+#navbar ul {
+    margin: 10px;
+    list-style: none;
+}
+#navbar ul li {
+    display: inline-block;
+    padding: 10px;
+    transition: 0.8s ease-in-out;
+}
+#navbar ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    transition: 0.8s ease-in-out;
+}
+#navbar ul li:hover {
+    border-bottom: 2px solid #23abc4;
+    border-radius: 5px;
+    background-color: #fff;
+}
+/* #navbar ul li:hover a {
+    color: #fff;
+} */
+#navbar ul li.active {
+    border-bottom: 2px solid #23abc4;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
